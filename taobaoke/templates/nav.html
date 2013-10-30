@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wb="http://open.weibo.com/wb">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>家厨娘子-家居圈子，享受爱的家</title>
+ <meta name="description" content="家厨娘子-最前沿的家居，厨房，软装圈子购物网" />
+ <link href="/static/css/base.css" rel="stylesheet" type="text/css" />
+ <link rel="Stylesheet" type="text/css" href="/static/css/smoothDivScroll.css">
+ 
+ <!-- LOAD JAVASCRIPT LATE - JUST BEFORE THE BODY TAG 
+		 That way the browser will have loaded the images
+		 and will know the width of the images. No need to
+		 specify the width in the CSS or inline. -->
+
+	<!-- jQuery library - Please load it from Google API's -->
+	<script src="/static/js/jquery.min.js" type="text/javascript"></script>
+
+	<!-- jQuery UI Widget and Effects Cre (custom download)
+		 You can make your own at http://jqueryui.com/download -->
+	<script src="/static/js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+	
+	<!-- Latest version of jQuery Mouse Wheel by Brandon Aaron
+		 You will find it here: http://brandonaaron.net/code/mousewheel/demos -->
+	<script src="/static/js/jquery.mousewheel.min.js" type="text/javascript"></script>
+
+	<!-- jQuery Kinetic - for touch -->
+	<script src="/static/js/jquery.kinetic.min.js" type="text/javascript"></script>
+
+	<!-- Smooth Div Scroll 1.3 minified -->
+	<script src="/static/js/jquery.smoothdivscroll-1.3-min.js" type="text/javascript"></script>
+
+	<!-- If you want to look at the uncompressed version you find it at
+		 /static/js/source/jquery.smoothDivScroll-1.3.js -->
+
+
+	<!-- Plugin initialization -->
+	<script type="text/javascript">
+		// Initialize the plugin with no custom options
+		$(document).ready(function () {
+			// I just set some of the options
+			$("#makeMeScrollable").smoothDivScroll({
+				mousewheelScrolling: "allDirections",
+				manualContinuousScrolling: true,
+				autoScrollingMode: "onStart"
+			});
+		});
+	</script>
+ 
+</head>
+
+
+<body>
+
+		<!--顶部通栏-->
+<div id="main_top" class="nz_topP fix">
+	<div node-type="nz_top" class="nz_top">
+		<div class="nz_header">
+			<div class="nz_logo">
+				<a href="/">&nbsp;</a>
+			</div>
+			<div class="nz_tit">
+				<div class="nz_topItem">
+					<a class="nz_topItemA" href="./location.htm">首页</a>				</div>
+				<div class="nz_topItem">
+					<a class="nz_topItemA" href="http://www.zhuqu.com/collection-recently">大家收藏</a>				</div>
+				<div node-type="picInter" class="nz_topItem pic">
+					<a class="nz_topItemA" href="http://www.zhuqu.com/ideas">家厨美图<em>&nbsp;</em></a>				</div>
+				<div class="nz_topItem">
+					<a class="nz_topItemA" href="http://www.zhuqu.com/collections?type=inspir">经验分享</a>				</div>
+				<div class="nz_topItem">
+					<a class="nz_topItemA" href="http://www.zhuqu.com/mall">家厨商城</a>				</div>
+				<div class="nz_topItem">
+					<a class="nz_topItemA" href="http://www.zhuqu.com/me">我的收藏</a>				</div>
+			</div>
+
+
+			<div class="nz_myInfo">
+				<a node-type="account" action-type="login" href="javascript:void(0)" class="nz_ac">
+				<span>登录</span></a>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+<!--/顶部通栏-->
+
+<!--滚动图 -->
+
+<div id="makeMeScrollable">
+	<div class="scrollingHotSpotLeft scrollingHotSpotLeftVisible" style="opacity: 0;">	
+	</div>
+	
+	<div class="scrollingHotSpotRight scrollingHotSpotRightVisible" style="opacity: 0;">	
+	</div>
+	
+	<div class="scrollWrapper">
+		<div class="scrollableArea" style="width: 3784px;">
+			<img src="http://mp3.zhuqu.com/static/images/water/92/9231bdffbe9f54f560ea4684a8c29c8d.jpg" alt="Field" id="field" />
+			<img src="http://mp4.zhuqu.com/static/images/water/c5/c5d4d8976b1635d5a0e9a3d97e023f6b.jpg" alt="two" id="two"/>
+			<img src="http://mp2.zhuqu.com/static/images/water/4a/4ab47c1c15e37900bb359b9d291bce74.jpg" alt="three" id="three"/>		</div>
+	</div>
+</div>
+
+
+{% block mall %}
+{% endblock %}
+
+
+<!--底部通栏-->
+<div class="zq_bottom">
+	<div class="zq_bottomW">
+		<div class="zq_aboutUs clearfix">
+			<div class="zq_bottomLogo">
+				<em> </em>
+				<p>©2013&nbsp;zhuqu.com All rights reserved</p>
+				<p>京ICP备xxx号</p>
+			</div>
+			<table>
+				<tr>
+					<td>
+						<p class="zq_bottomTit">关于我们：</p>
+						<ul>
+							<li><span>•</span><a href="http://www.zhuqu.com/about">关于家厨娘子</a></li>
+							<li><span>•</span><a href="http://www.zhuqu.com/contact">联系我们</a></li>
+						</ul>
+					</td>
+					<td>
+						<p class="zq_bottomTit">家居美图：</p>
+						<ul>
+							<li><span>•</span><a href="http://www.zhuqu.com/collection-recently">大家收藏</a></li>
+							<li><span>•</span><a href="http://www.zhuqu.com/ideas">装修图库</a></li>
+							<li><span>•</span><a href="http://www.zhuqu.com/collections?type=case">案例套图</a></li>
+							<li><span>•</span><a href="http://www.zhuqu.com/highlight">亮点解读</a></li>
+							<li><span>•</span><a href="http://www.zhuqu.com/house">搭配速成</a></li>
+						</ul>
+					</td>
+					<td>
+						<p class="zq_bottomTit">经验分享：</p>
+						<ul>
+							<li><span>•</span><a href="http://www.zhuqu.com/collections?type=inspir&prop=4106208736,4106208776">色彩风格</a></li>
+							<li><span>•</span><a href="http://www.zhuqu.com/collections?type=inspir&prop=4106208736,4106208774">空间利用</a></li>
+							<li><span>•</span><a href="http://www.zhuqu.com/collections?type=inspir&prop=4106208736,4106208775">情绪格调</a></li>
+							<li><span>•</span><a href="http://www.zhuqu.com/collections?type=inspir&prop=4106208736,4107178756">物品图册</a></li>
+						</ul>
+					</td>
+					<td class="zq_bottomLast">
+						<p class="zq_bottomTit">家居商城：</p>
+						<ul>
+							<li><span>•</span><a href="http://www.zhuqu.com/mall">精选商品</a></li>
+							<li><span>•</span><a href="http://www.zhuqu.com/mall/folder/item/721">商品图册</a></li>
+							<li><span>•</span><a href="http://www.zhuqu.com/mall/shops">精品店铺</a></li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="zq_link">
+			<p class="zq_bottomTit">友情链接：</p>
+			<ul class="zq_linksCon">
+							<li><span>•</span><a href="http://jiaju.sina.com.cn/" target="_blank">新浪家居</a></li>
+							<li><span>•</span><a href="http://house.baidu.com/bj/" target="_blank">北京房产</a></li>
+							<li><span>•</span><a href="http://house.chinadaily.com.cn/" target="_blank">房产中国</a></li>
+							<li><span>•</span><a href="http://home.sohu.com/" target="_blank">搜狐家居</a></li>
+							<li><span>•</span><a href="http://dapei.pchouse.com.cn/" target="_blank">装饰搭配</a></li>
+							<li><span>•</span><a href="http://www.lagou.com/" target="_blank">拉钩网</a></li>
+							<li><span>•</span><a href="http://www.managershare.com/" target="_blank">经理人分享</a></li>
+							<li><span>•</span><a href="http://henan.sina.com.cn/" target="_blank">新浪河南</a></li>
+							<li><span>•</span><a href="http://sc.sina.com.cn/" target="_blank">新浪四川</a></li>
+							<li><span>•</span><a href="http://www.pinping.com/" target="_blank">品评网</a></li>
+		  </ul>
+		</div>
+	</div>
+</div>
+<!--/底部通栏-->
+
+</body>
+</html>
