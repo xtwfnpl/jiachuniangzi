@@ -1,0 +1,72 @@
+.zq_content {
+    margin: 0 auto;
+    width: 960px;
+    margin-bottom: 20px;
+}
+
+
+.zq_homeMallInter {
+    margin-bottom: 32px;
+}
+
+.zq_homeMallInter .zq_goodsBook {
+    width: 980px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    zoom: 1;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.zq_homeMallInter .zq_goodsBook .zq_goodsBkItem {
+    width: 440px;
+    height: 200px;
+    padding: 20px 15px;
+    float: left;
+    display: inline;
+    background-color: #fff;
+    margin: 0 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+fieldset, img {
+    border: 0;
+}
+
+.zq_homeMallInter .zq_goods {
+    width: 980px;
+    margin-left: -9px;
+    zoom: 1;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.zq_homeMallInter .zq_goods div {
+    float: left;
+    display: inline;
+    margin: 0 9px;
+}
+
+.zq_homeMallInter .zq_goods .zq_edge a, .zq_homeMallInter .zq_goods .zq_edge a img {
+    height: 241px;
+}
+
+.zq_homeMallInter .zq_goods a {
+    width: 308px;
+    display: block;
+    background-color: #fff;
+    margin-bottom: 18px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
